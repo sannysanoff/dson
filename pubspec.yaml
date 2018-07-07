@@ -6,18 +6,17 @@ homepage: https://github.com/luisvt/dson
 environment:
   sdk: '>=2.0.0-dev <2.0.0'
 dependencies:
-  source_gen: ^0.8.0
-  build: ^0.12.0
-  analyzer: ^0.31.0
-  logging: ^0.11.0
-  dson_core: ^0.13.2
-#  dson_core:
-#    path: ../dson_core
-  built_mirrors_core: ^0.8.4
-  serializable_core: ^0.9.2
+  source_gen: 
+  build: 
+  analyzer: ^0.32.3
+  logging: 
+  dson_core: 
+    git: https://github.com/sannysanoff/dson_core.git
+  built_mirrors_core: 
+  serializable_core:
 #dependency_overrides:
 #  built_mirrors:
 #    path: ../built_mirrors
 dev_dependencies:
-  test: ^0.12.0
-  build_runner: ^0.7.0
+  test: 
+  build_runner: 
